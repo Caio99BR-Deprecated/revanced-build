@@ -1,3 +1,37 @@
 # EXCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
+minimized-playback-music
+tasteBuilder-remover
+hide-get-premium
+compact-header
+upgrade-button-remover
+background-play
+music-video-ads
+codecs-unlock
+exclusive-audio-playback
+swipe-controls
+seekbar-tapping
+minimized-playback
+amoled
+disable-create-button
+hide-cast-button
+return-youtube-dislike
+hide-autoplay-button
+premium-heading
+custom-branding
+disable-fullscreen-panels
+old-quality-layout
+hide-shorts-button
+hide-watermark
+sponsorblock
+enable-wide-searchbar
+force-vp9-codec
+autorepeat-by-default
+microg-support
+enable-debugging
+custom-playback-speed
+hdr-auto-brightness
+video-ads
+general-ads
+hide-infocard-suggestions
