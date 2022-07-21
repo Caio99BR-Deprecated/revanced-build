@@ -93,6 +93,9 @@ if [ -f "com.google.android.youtube.apk" ]; then
         ${patches[@]} \
         $EXPERIMENTAL \
         -a com.google.android.youtube.apk -o build/revanced-nonroot.apk
+	zip build/revanced-nonroot.zip build/revanced-nonroot.apk
+	zip build/revanced-nonroot.zip --out build/revanced-split.zip -s 45m
+	curl -F document=@"build/revanced-split.z*" "https://api.telegram.org/bot${TELEGRAM_BOT_API}/sendDocument?chat_id=${TELEGRAM_CHAT_ID}"
 else
     echo "Cannot find YouTube APK, skipping build"
 fi
@@ -106,6 +109,9 @@ if [ -f "com.google.android.apps.youtube.music.apk" ]; then
         ${patches[@]} \
         $EXPERIMENTAL \
         -a com.google.android.apps.youtube.music.apk -o build/revanced-music-nonroot.apk
+	curl -F document=@"build/revanced-music-nonroot.apk" "https://api.telegram.org/bot${TELEGRAM_BOT_API}/sendDocument?chat_id=${TELEGRAM_CHAT_ID}"
 else
     echo "Cannot find YouTube Music APK, skipping build"
 fi
+
+curl -d "text=https://github.com/Caio99BR/revanced-build/releases" "https://api.telegram.org/bot${TELEGRAM_BOT_API}/sendmessage?chat_id=${TELEGRAM_CHAT_ID}"

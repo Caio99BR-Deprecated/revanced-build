@@ -20,6 +20,9 @@ jobs:
         run: ./download_uptodown.sh
 
       - name: Build APKs
+        env:
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_API: ${{ secrets.TELEGRAM_BOT_API }}
         run: ./build_revanced.sh
 
       - name: Set current date as env variable

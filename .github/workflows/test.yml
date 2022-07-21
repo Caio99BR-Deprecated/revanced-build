@@ -22,6 +22,9 @@ jobs:
         run: ./download_uptodown.sh
 
       - name: Test Build APKs
+        env:
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_API: ${{ secrets.TELEGRAM_BOT_API }}
         run: |
           ./build_revanced.sh
           for filename in build/revanced-nonroot.apk build/revanced-music-nonroot.apk; do
