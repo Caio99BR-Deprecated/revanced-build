@@ -1,28 +1,15 @@
 # EXCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
-minimized-playback-music
-tasteBuilder-remover
-hide-get-premium
 upgrade-button-remover
 background-play
 music-video-ads
-codecs-unlock
-exclusive-audio-playback
-swipe-controls
-seekbar-tapping
-minimized-playback
 amoled
-disable-create-button
 return-youtube-dislike
-hide-autoplay-button
 custom-branding
-disable-fullscreen-panels
-old-quality-layout
 sponsorblock
 force-vp9-codec
 microg-support
-custom-playback-speed
 hdr-auto-brightness
 video-ads
 general-ads
