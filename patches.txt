@@ -10,6 +10,7 @@ custom-branding
 sponsorblock
 force-vp9-codec
 microg-support
+music-microg-support
 hdr-auto-brightness
 video-ads
 general-ads
