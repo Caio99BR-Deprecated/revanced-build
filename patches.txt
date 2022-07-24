@@ -13,3 +13,4 @@ microg-support
 hdr-auto-brightness
 video-ads
 general-ads
+downloads
