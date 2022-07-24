@@ -53,9 +53,9 @@ if [[ "$1" == "clean" ]]; then
     exit
 fi
 
-if [[ "$1" == "experimental" ]]; then
+
     EXPERIMENTAL="--experimental"
-fi
+
 
 # Fetch all the dependencies
 for artifact in "${!artifacts[@]}"; do
